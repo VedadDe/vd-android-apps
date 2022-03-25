@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Projekat - Covid</string>
+    <string name="prijava">Prijavi se</string>
+    <string name="pocetna">"COVID-19 prijava za vakcinaciju "</string>
+    <string name="end">Nažalost zbog Vašeg trenutnog stanja nećemo Vas uvrstiti u spisak za vakcinaciju.
+        Preporućujemo Vam da se posavjetujete s Vašim liječnikom, te da kada Vam on odobri da bi vakcinacije bila
+        sigurna za Vas prijevite se ponovo.</string>
+
+
+    <string name="vakcine">Odaberite željenu vakcinu</string>
+    <string name="info">Efekat vakcine protiv Covid-19 na pandemiju zavisiće od nekoliko faktora.
+        To su, na primjer: efikasnost vakcine, brzina i kontinuitet odobravanja, proizvodnje i
+        isporuke te broj ljudi koji će se vakcinisati. Takođe, nije zanemariv ni podatak o broju
+        osoba koje su preboljele Covid-19. Ova aplikacije je napravljena kako bi prikupili podatke
+        o građanima koji žele da budu vakcinisani, o njihovom zdravstvenom stanju, starosnoj dobi kao i odabiru
+        željene vakcine, sve kako bi sam proces vakcinacije olakšali i ubrzali. Molimo vas da sve navedene upite
+        adekvatno i ispravno popunite, kako bi dobili svoj termin za vakcinisanje. </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="back">Nazad</string>
+    <string name="app_info">O aplikaciji</string>
+    <string name="primary_info">Lični podaci</string>
+    <string name="ime">Ime</string>
+    <string name="prezime">Prezime</string>
+    <string name="birthday">Datum rođenja</string>
+    <string name="telefon">Telefon:</string>
+    <string name="kanton">Kanton</string>
+    <string name="dodatne_info">Dodatne informacije:</string>
+    <string name="hronicni">Hronične bolesti</string>
+    <string name="zdravstveni_radnik">Zdravstveni radnik</string>
+    <string name="godine">75+ godina starosti</string>
+    <string name="Dalje">Dalje</string>
+    <string name="ime_prezime">Ime i prezime : </string>
+    <string name="title_activity_main2" translatable="false">MainActivity</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Vakcinacija</string>
+    <string name="nav_header_subtitle" translatable="false">licence70@pmf.unsa.ba</string>
+    <string name="action_settings" translatable="false">O aplikaciji</string>
+
+    <string name="menu_home" translatable="false">Home</string>
+    <string name="menu_gallery" translatable="false">Gallery</string>
+    <string name="menu_slideshow" translatable="false">Slideshow</string>
+    <string name="poruka">Ukoliko trenutno bolujete od Covid-19 ili  smatrate da ne biste trebali primiti vakcinu, zbog alergija, trudnoće ili nekih drugih zdravstvenih razloga molimo
+        Vas kliknite na više informacija, kako biste dobili upute kako da postupite, u suprotnom nastavite dalje kako bismo prikupili Vaše informacije.</string>
+    <string name="mjesto">Mjesto vakcinisanja :</string>
+    <string name="vakcina">Vakcina : </string>
+    <string name="vise_info">Više informacija</string>
+    <string name="registracija">Vaša prijava za vakcinaciju je uspješno evidentirana. Datum vaše vakcinacije je:</string>
+    <string name="oapp">O aplikaciji</string>
+
+</resources>

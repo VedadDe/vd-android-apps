@@ -1,0 +1,99 @@
+
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.projekat_covid.VakcineFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="391dp"
+            android:layout_height="80dp"
+            android:paddingLeft="10dp"
+            android:text="@string/vakcine"
+            android:textSize="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.076" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="336dp"
+            android:layout_height="325dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.32">
+
+            <RadioButton
+                android:id="@+id/id_radio_pfizer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/odabir_vakcine"
+                android:layout_marginLeft="@dimen/odabir_vakcine"
+                android:layout_marginTop="10dp"
+                android:text="Pfizer - BioNTech"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/id_radio_astraZeneca"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/odabir_vakcine"
+                android:layout_marginLeft="@dimen/odabir_vakcine"
+                android:text="AstraZeneca - Oxford"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/id_radio_moderna"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/odabir_vakcine"
+                android:layout_marginLeft="@dimen/odabir_vakcine"
+                android:text="Moderna"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/id_radio_jansen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/odabir_vakcine"
+                android:layout_marginLeft="@dimen/odabir_vakcine"
+                android:text="Janssen (Johnson  Johnson)"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/id_radio_sinopharm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/odabir_vakcine"
+                android:layout_marginLeft="@dimen/odabir_vakcine"
+                android:text="Sinopharm"
+                android:textSize="16sp" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/id_button_vakcine_dalje"
+            android:layout_width="114dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Dalje"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.932"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.743" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

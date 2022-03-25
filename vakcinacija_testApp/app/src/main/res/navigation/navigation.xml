@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/uvodniFragment">
+
+    <fragment
+        android:id="@+id/uvodniFragment"
+        android:name="com.example.projekat_covid.UvodniFragment"
+        android:label="Covid19 - vakcinacija"
+        tools:layout="@layout/fragment_uvodni">
+        <action
+            android:id="@+id/action_uvodniFragment_to_provjeraFragment"
+            app:destination="@id/provjeraFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/provjeraFragment"
+        android:name="com.example.projekat_covid.ProvjeraFragment"
+        android:label="Covid19 - vakcinacija"
+        tools:layout="@layout/fragment_provjera">
+        <action
+            android:id="@+id/action_provjeraFragment_to_podaciFragment"
+            app:destination="@id/podaciFragment"
+            app:popUpTo="@id/provjeraFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_provjeraFragment_to_krajFragment"
+            app:destination="@id/krajFragment"
+            app:popUpTo="@id/provjeraFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/podaciFragment"
+        android:name="com.example.projekat_covid.PodaciFragment"
+        android:label="Covid19 - vakcinacija"
+        tools:layout="@layout/fragment_podaci">
+        <action
+            android:id="@+id/action_podaciFragment_to_vakcineFragment"
+            app:destination="@id/vakcineFragment"
+            app:popUpTo="@id/uvodniFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/vakcineFragment"
+        android:name="com.example.projekat_covid.VakcineFragment"
+        android:label="Covid19 - vakcinacija"
+        tools:layout="@layout/fragment_vakcine">
+        <action
+            android:id="@+id/action_vakcineFragment_to_sazetakFragment"
+            app:destination="@id/sazetakFragment"
+            app:popUpTo="@id/uvodniFragment" />
+        <argument
+            android:name="ime"
+            app:argType="string" />
+        <argument
+            android:name="prezime"
+            app:argType="string" />
+        <argument
+            android:name="mjesto"
+            app:argType="string" />
+        <argument
+            android:name="kriticnaKategorija"
+            app:argType="boolean" />
+    </fragment>
+    <fragment
+        android:id="@+id/sazetakFragment"
+        android:name="com.example.projekat_covid.SazetakFragment"
+        android:label="Covid19 - vakcinacija"
+        tools:layout="@layout/fragment_sazetak">
+        <argument
+            android:name="ime"
+            app:argType="string" />
+        <argument
+            android:name="prezime"
+            app:argType="string" />
+        <argument
+            android:name="mjesto"
+            app:argType="string" />
+        <argument
+            android:name="vakcina"
+            app:argType="string" />
+        <argument
+            android:name="kriticnaKategorija"
+            app:argType="boolean" />
+    </fragment>
+    <fragment
+        android:id="@+id/krajFragment"
+        android:name="com.example.projekat_covid.KrajFragment"
+        android:label="Covid19 - vakcinacija"
+        tools:layout="@layout/fragment_kraj" >
+        <action
+            android:id="@+id/action_krajFragment_to_provjeraFragment"
+            app:destination="@id/provjeraFragment"
+            app:popUpTo="@id/provjeraFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/OAplikacijiFragment"
+        android:name="com.example.projekat_covid.OAplikacijiFragment"
+        android:label="Covid19 - vakcinacija"
+        tools:layout="@layout/fragment_o_aplikaciji" />
+</navigation>

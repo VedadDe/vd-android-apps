@@ -1,0 +1,158 @@
+
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.projekat_covid.PodaciFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="405dp"
+            android:layout_height="686dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/primary_info"
+                android:textSize="25sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/id_edit_ime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:ems="10"
+                android:hint="@string/ime"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/id_edit_prezime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/unos_podataka_margine"
+                android:layout_marginLeft="@dimen/unos_podataka_margine"
+                android:layout_marginEnd="@dimen/unos_podataka_margine"
+                android:layout_marginRight="@dimen/unos_podataka_margine"
+                android:ems="10"
+                android:hint="@string/prezime"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/id_edit_JMBG"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/unos_podataka_margine"
+                android:layout_marginLeft="@dimen/unos_podataka_margine"
+                android:layout_marginEnd="@dimen/unos_podataka_margine"
+                android:layout_marginRight="@dimen/unos_podataka_margine"
+                android:ems="10"
+                android:hint="JMBG"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/id_edit_datum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/unos_podataka_margine"
+                android:layout_marginLeft="@dimen/unos_podataka_margine"
+                android:layout_marginEnd="@dimen/unos_podataka_margine"
+                android:layout_marginRight="@dimen/unos_podataka_margine"
+                android:ems="10"
+                android:hint="@string/birthday"
+                android:inputType="date" />
+
+            <EditText
+                android:id="@+id/id_edit_broj_telefona"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/unos_podataka_margine"
+                android:layout_marginLeft="@dimen/unos_podataka_margine"
+                android:layout_marginEnd="@dimen/unos_podataka_margine"
+                android:layout_marginRight="@dimen/unos_podataka_margine"
+                android:ems="10"
+                android:hint="@string/telefon"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/id_edit_grad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/unos_podataka_margine"
+                android:layout_marginLeft="@dimen/unos_podataka_margine"
+                android:layout_marginEnd="@dimen/unos_podataka_margine"
+                android:layout_marginRight="@dimen/unos_podataka_margine"
+                android:ems="10"
+                android:hint="@string/kanton"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="60dp"
+                android:paddingLeft="5dp"
+                android:text="@string/dodatne_info"
+                android:textSize="25dp" />
+
+            <CheckBox
+                android:id="@+id/id_checkBox_hronicni_bolesnik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/unos_podataka_margine"
+                android:layout_marginLeft="@dimen/unos_podataka_margine"
+                android:layout_marginTop="10dp"
+                android:text="@string/hronicni" />
+
+            <CheckBox
+                android:id="@+id/id_checkBox_zdravstveni_radnik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/unos_podataka_margine"
+                android:layout_marginLeft="@dimen/unos_podataka_margine"
+                android:text="@string/zdravstveni_radnik" />
+
+            <CheckBox
+                android:id="@+id/id_checkBox_staracki_dom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/unos_podataka_margine"
+                android:layout_marginLeft="@dimen/unos_podataka_margine"
+                android:text="@string/godine"
+                />
+
+            <Button
+                android:id="@+id/id_button_dalje"
+                android:layout_width="114dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="270dp"
+                android:layout_marginLeft="270dp"
+                android:text="@string/Dalje" />
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

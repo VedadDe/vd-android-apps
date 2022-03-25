@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Projekt - Covid</string>
+    <string name="prijava">Einloggen</string>
+    <string name="pocetna">"Impfantrag "</string>
+    <string name="end">   Aufgrund Ihres aktuellen Gesundheitszustands werden wir Sie leider nicht auf die Impfliste setzen. Wir empfehlen, dass Sie Ihren Arzt konsultieren. Wenn er die Impfung für Sie genehmigt, müssen Sie Melden sich erneut an. </string>
+
+
+    <string name="vakcine">Wählen Sie den Impfstoff, den Sie mögen</string>
+    <string name="info">The effect of the Covid-19 vaccine on the pandemic will depend on several factors. These are, for example: vaccine efficiency, speed and continuity of approval, production and deliveries and the number of people who will be vaccinated. Also, the data on the number is not negligible people who got over Covid-19. This application is made to collect data about citizens who want to be vaccinated, about their health condition, age and choice desired vaccines, all in order to facilitate and accelerate the vaccination process itself. Please make all the above inquiries fill in adequately and correctly, in order to get your vaccination appointment.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="back">Zurück</string>
+    <string name="app_info">App info</string>
+    <string name="primary_info">Persönliche Informationen</string>
+    <string name="ime">Name</string>
+    <string name="prezime">Nachname</string>
+    <string name="birthday">DOB</string>
+    <string name="telefon">Phone:</string>
+    <string name="kanton">Gemeinde</string>
+    <string name="ime_prezime">Ime i prezime : </string>
+    <string name="dodatne_info">Mehr Informationen:</string>
+    <string name="hronicni">Chronische Krankheit</string>
+    <string name="zdravstveni_radnik">Gesundheitspfleger</string>
+    <string name="godine">75+ Jahre alt</string>
+    <string name="Dalje">Nächster</string>
+    <string name="poruka">Wenn Sie der Meinung sind, dass Sie den Impfstoff aus Allergien oder anderen gesundheitlichen Gründen nicht erhalten sollten, klicken Sie zurück. Ansonsten weiter</string>
+    <string name="mjesto">Platz</string>
+    <string name="vakcina">"Vaccine : "</string>
+    <string name="vise_info">Mehr info</string>
+    <string name="registracija">Sie wurden registriert. Date: </string>
+    <string name="oapp">App info</string>
+</resources>
